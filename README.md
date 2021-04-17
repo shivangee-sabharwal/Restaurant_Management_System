@@ -46,7 +46,10 @@ Please fork the repo and clone it in your local. Create a new branch and perform
 Before making changes, please create an issue and discuss it on the repo.
 
 ## How to execute the project
-Run executable RMS_GUI.jar. This will launch the GUI window for the restaurant management system.
+Using GUI -> 
+Run executable RMS_GUI.jar. This will launch the GUI window for the restaurant management system.\
+Using IDE ->
+Use appropriate IDE (Atom/ Visual Studio Code) to launch the restaurant management system.
 
 ## Contributors
 
