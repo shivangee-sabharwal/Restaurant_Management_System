@@ -122,4 +122,19 @@ public class Order
             total += re.getTotalPrice();
         }
     }
+    
+    public String getOrderStateName(int state){
+        if(state==0){
+            return "Order Arrived";
+        }
+        else if(state==1){
+            return "Order Closed";
+        }
+        else if(state==2){
+            return "Order Cancelled";
+        }
+        else{
+            return "Invalid State";
+        }
+    }
 }
