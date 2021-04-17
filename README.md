@@ -19,8 +19,6 @@ git checkout -b branchname
 4. Commit code changes to the branch to make code additions
 ```
 git add .
-```
-```
 git commit -m "commit message"
 ```
 5. Push this branch to your remote master branch
@@ -31,6 +29,21 @@ git push origin master
 7. The project owner merges or closes the Pull Request
 8. Make changes as per discussions and comments from the repo owner
 9. Sync the updated master back to your fork
+   
+   Below are the steps that can be followed to sync the changes from the original repo to the forked repo :
+   
+```
+	- move to master branch
+	- add remote using 'git remote add upstream <remote repo link>'
+	- Make sure you have no modified files using "git status"
+	- if there are any modified files then use "git stash" command
+	- git pull upstream master
+	- git push origin master
+	- use "git stash apply" to get modified files if any stashed
+	- Switch to topic branch - "git checkout work-branch-name"
+	- user merge command to sync changes "git merge origin master"
+	- git push origin work-branch-name
+```
 
 ## How to Contribute?
 
