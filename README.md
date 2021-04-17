@@ -67,5 +67,6 @@ Before making changes, please create an issue and discuss it on the repo.
 ## Contributors
 
 Shivangee Sabharwal- 2020MT93031 (GitHub Username : shivangee-sabharwal)\
-Prabhkirat Kaur- 2020MT93174 (GitHub Username : 2020MT93174)
-Shivangi Singh - 2020MT93177 (GitHub Username : ShivangiDummy)
+Prabhkirat Kaur- 2020MT93174 (GitHub Username : 2020MT93174)\
+Shivangi Singh - 2020MT93177 (GitHub Username : ShivangiDummy)\
+Shriramkumar J -2020MT93210 (GitHub Username : Shrirambits)
