@@ -177,7 +177,7 @@ public class Controller
                     break;
             }
             if(state == -1) //error
-                printErrorMessageToView("Error");
+                printErrorMessageToView("Invalid menu option");
         }
         
         //finish program
@@ -289,16 +289,16 @@ public class Controller
                 }
                 else
                 {
-                    printMessageToView("Password unmatching.");
+                    printMessageToView("Password does not match.");
                 }
             }
-            else    //ID is found but type(Manager or Employee) is umnatching
+            else    //ID is found but type(Manager or Employee) is unmatching
             {
-                printMessageToView("Not found.");
+                printMessageToView("ID exists in the system, but user type (Manager/Employee) does not match");
             }
         }
         else
-            printMessageToView("Not found.");
+            printMessageToView("User data is not found");
         
 
         pause(2);    

@@ -161,21 +161,21 @@ public class Controller_GUI
                 }
                 else
                 {
-                    setErrorMessage("Password unmatch.");
+                    setErrorMessage("Password does not match.");
                     //printErrorMessageToView("Password unmatching.");
                     return false;
                 }
             }
             else    //ID is found but type(Manager or Employee) is umnatching
             {
-                setErrorMessage("Not found.");
+                setErrorMessage("ID exists in the system, but user type (Manager/Employee) does not match");
                 //printErrorMessageToView("Not found.");
                 return false;
             }
         }
         else
         {
-            setErrorMessage("Not found.");
+            setErrorMessage("User not found");
             return false;
         }
 
@@ -199,7 +199,7 @@ public class Controller_GUI
         Staff rStaff = cDatabase.findStaffByID(newID);
         if(rStaff != null)
         {
-            setErrorMessage("ID:" + newID + " is arleady used by " + rStaff.getFullName());
+            setErrorMessage("ID:" + newID + " is already used by " + rStaff.getFullName());
             return false;
         }
         
@@ -296,7 +296,7 @@ public class Controller_GUI
         MenuItem rMenuItem = cDatabase.findMenuItemByID(newID);
         if(rMenuItem != null)
         {
-            setErrorMessage("ID:" + newID + " is arleady used by " + rMenuItem.getName());
+            setErrorMessage("ID:" + newID + " is already used by " + rMenuItem.getName());
             return false;
         }
         
@@ -365,8 +365,8 @@ public class Controller_GUI
         Order rOrder = cDatabase.findOrderByID(orderID);
         if( currentUserID != rOrder.getStaffID())
         {
-            setErrorMessage("You are not eligible to edit the order.\nThe order belonges to " + rOrder.getStaffName() + ")");
-            //printErrorMessageToView("You are not eligible to edit the order.\nThe order belonges to " + rOrder.getStaffName() + ")");
+            setErrorMessage("You are not eligible to edit the order.\nThe order belongs to " + rOrder.getStaffName() + ")");
+            //printErrorMessageToView("You are not eligible to edit the order.\nThe order belongs to " + rOrder.getStaffName() + ")");
             return false;    
         }
         
@@ -391,8 +391,8 @@ public class Controller_GUI
         Order rOrder = cDatabase.findOrderByID(orderID);
         if( currentUserID != rOrder.getStaffID())
         {
-            setErrorMessage("You are not eligible to delete the order.\nThe order belonges to " + rOrder.getStaffName() + ")");
-            //printErrorMessageToView("You are not eligible to delete the order.\nThe order belonges to " + rOrder.getStaffName() + ")");
+            setErrorMessage("You are not eligible to delete the order.\nThe order belongs to " + rOrder.getStaffName() + ")");
+            //printErrorMessageToView("You are not eligible to delete the order.\nThe order belongs to " + rOrder.getStaffName() + ")");
             return false;    
         }
         
@@ -400,7 +400,7 @@ public class Controller_GUI
         if(!cDatabase.deleteOrderItem(orderID, deleteNo))
         {
             //printErrorMessageToView("Not found.");
-            setErrorMessage("Not found.");
+            setErrorMessage("Item which is being deleted does not exist");
             return false;
         }
         return true;
@@ -411,7 +411,7 @@ public class Controller_GUI
         Order rOrder = cDatabase.findOrderByID(closeOrderID);
         if( currentUserID != rOrder.getStaffID())
         {
-            setErrorMessage("You are not eligible to delete the order.\n(The order belonges to " + rOrder.getStaffName() + ")");
+            setErrorMessage("You are not eligible to delete the order.\n(The order belongs to " + rOrder.getStaffName() + ")");
             return false;    
         }
         
@@ -431,13 +431,13 @@ public class Controller_GUI
         Order rOrder = cDatabase.findOrderByID(cancelOrderID);
         if( currentUserID != rOrder.getStaffID())
         {
-            setErrorMessage("You are not eligible to delete the order.\n(The order belonges to " + rOrder.getStaffName() + ")");
+            setErrorMessage("You are not eligible to delete the order.\n(The order belongs to " + rOrder.getStaffName() + ")");
             return false;    
         }
         
         if( rOrder.getState() != 0)
         {
-            setErrorMessage("The order is already closed or canceled.");
+            setErrorMessage("The order is already closed or cancelled.");
             return false;
         }
 
@@ -460,7 +460,7 @@ public class Controller_GUI
      {
         if(!cDatabase.checkIfAllOrderClosed())
         {
-             setErrorMessage("All orders must be closed or canceled before generate reports.");
+             setErrorMessage("All orders must be closed or cancelled before reports are generated.");
              return null;
         }
             
@@ -479,7 +479,7 @@ public class Controller_GUI
     {
         if(!cDatabase.checkIfAllStaffCheckout())
         {
-            setErrorMessage("All staff must be checked out before generate a payment report.");
+            setErrorMessage("All staff must be checked out before a payment report is generated.");
             return null;
         }
 
@@ -634,7 +634,7 @@ public class Controller_GUI
             initData.add(output);
         }
         if(initData.isEmpty())
-            initData.add("No order.");
+            initData.add("Order does not exist");
         return initData;
     }
     
