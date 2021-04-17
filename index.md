@@ -30,6 +30,12 @@ He can also manage the staff, by adding new employee details, editing existing o
 
 ***User Flow 2:*** The logged in user is a staff member
 
+![Image](images/staff_login.JPG)
+
+When a staff or employee logs in he is able to see the menu and can also create, view, update and cancel orders
+
+![Image](images/order_management.JPG)
+
 ***User Flow 3:*** Manager adds, edits and removes a staff member
 
 ***User Flow 4:*** The logged in user manages menu items
