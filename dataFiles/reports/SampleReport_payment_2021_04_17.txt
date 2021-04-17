@@ -1,0 +1,6 @@
+*********** Payment List (2021_04_17) ***********
+Order ID:   7  StaffName:yugesh verma                    Work time:0.00  Pay:100.00
+Order ID:93174  StaffName:Prabhkirat Kaur                 Work time:0.00  Pay:0.00 
+Order ID:93177  StaffName:Shivangi Singh                  Work time:0.00  Pay:0.00 
+-------------------------------------------------------
+Total payment:$100.0(3)
