@@ -13,12 +13,19 @@ The user gets an option to login as a manager or as an employee.
 ***User Flow 1:*** The logged in user is a manager
 
 ![Image](images/manager_login.jpg)
-Post successful login, the manager is able to access the application.
+
+Post successful login, the manager is able to access the application.\
+
 ![Image](images/manager_login_success.jpg)
-He is able to see the entire menu, along with the options to manage the menu, by adding, editing or deleting a menu item
+
+He is able to see the entire menu, along with the options to manage the menu, by adding, editing or deleting a menu item\
+
 ![Image](images/menu.jpg)
+
 ![Image](images/menu_management.jpg)
-He can also manage the staff, by adding new employee details, editing existing ones and deleting the staff who has left their job at the restaurant.
+
+He can also manage the staff, by adding new employee details, editing existing ones and deleting the staff who has left their job at the restaurant.\
+
 ![Image](images/staff_management.jpg)
 
 ***User Flow 2:*** The logged in user is a staff member
