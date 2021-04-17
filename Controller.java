@@ -132,8 +132,8 @@ public class Controller
             }
             catch(Exception e)
             {
-                //String errMessage = e.toString()  + ":" + e.getMessage();
-                //printMessageToView(errMessage);
+                String errMessage = e.toString()  + ":" + e.getMessage();
+                printMessageToView(errMessage);
             }
          }
     }
