@@ -6,20 +6,27 @@ The Online Restaurant Management System is a Java based application.It enables m
 ## Core Functionalities and User Flow
 The application provides the following capabilities to the user. The landing page is the first page the user sees once the application is executed.
 
-![Image](images/landing_page.jpg)
+![Image](images/landing_page.JPG)
 
 The user gets an option to login as a manager or as an employee.
 
 ***User Flow 1:*** The logged in user is a manager
 
-![Image](images/manager_login.jpg)
+![Image](images/manager_login.JPG)
+
 Post successful login, the manager is able to access the application.
-![Image](images/manager_login_success.jpg)
+
+![Image](images/manager_login_success.JPG)
+
 He is able to see the entire menu, along with the options to manage the menu, by adding, editing or deleting a menu item
-![Image](images/menu.jpg)
-![Image](images/menu_management.jpg)
+
+![Image](images/menu.JPG)
+
+![Image](images/menu_management.JPG)
+
 He can also manage the staff, by adding new employee details, editing existing ones and deleting the staff who has left their job at the restaurant.
-![Image](images/staff_management.jpg)
+
+![Image](images/staff_management.JPG)
 
 ***User Flow 2:*** The logged in user is a staff member
 
