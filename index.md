@@ -1,44 +1,38 @@
-# Restaurant_Management_System
-
+![Image](images/Logo.jpg)
 ## Background
 
-The application is a Java based Online Restaurant Management application that allows the users to Show menu, Create Orders and manage new employees/staff, menu.
-The staff should be able to view the menu and manage orders. The management staff should be authorized to view staff list, manage staff , make changes to the menu and generate reports.
+The Online Restaurant Management System is a Java based application.It enables managers and staff to carry out their activities with ease. The staff can show menu, manage orders, generate reports.  The managers in addition to this can also manage staff by creating, updating or deleting employee records.
 
-## Usage
+## Core Functionalities and User Flow
+The application provides the following capabilities to the user. The landing page is the first page the user sees once the application is executed.
 
-1. Fork the repository to create a copy of the repository in your github account to freely experiment with the code without affecting the original project.
-2. Clone the forked repo to your local machine 
-```
-git clone https://github.com/shivangee-sabharwal/Online-Restaurant-Management-System.git
-```
-3. Create a topic branch from the master branch
-```
-git checkout -b branchname
-```
-4. Commit code changes to the branch to make code additions
-```
-git add .
-```
-```
-git commit -m "commit message"
-```
-5. Push this branch to your remote master branch
-```
-git push origin master
-```
-6. Open a Pull Request on GitHub
-7. The project owner merges or closes the Pull Request
-8. Make changes as per discussions and comments from the repo owner
-9. Sync the updated master back to your fork
+![Image](images/landing_page.jpg)
 
-## How to Contribute?
+The user gets an option to login as a manager or as an employee.
 
-Pull requests are welcome. 
-Please fork the repo and clone it in your local. Create a new branch and perform your changes. Push your changes and create a pull request from your branch to the master branch.
-Before making changes, please create an issue and discuss it on the repo.
+***User Flow 1:*** The logged in user is a manager
 
-## Contributors
+![Image](images/manager_login.jpg)
+Post successful login, the manager is able to access the application.
+![Image](images/manager_login_success.jpg)
+He is able to see the entire menu, along with the options to manage the menu, by adding, editing or deleting a menu item
+![Image](images/menu.jpg)
+![Image](images/menu_management.jpg)
+He can also manage the staff, by adding new employee details, editing existing ones and deleting the staff who has left their job at the restaurant.
+![Image](images/staff_management.jpg)
 
-Shivangee Sabharwal- 2020MT93031 (GitHub Username : shivangee-sabharwal)\
-Prabhkirat Kaur- 2020MT93174 (GitHub Username : 2020MT93174)
+***User Flow 2:*** The logged in user is a staff member
+
+***User Flow 3:*** Manager adds, edits and removes a staff member
+
+***User Flow 4:*** The logged in user manages menu items
+
+***User Flow 5:*** The logged in user checks total sales
+
+***User Flow 6:*** The logged in user checks the status of payments
+
+
+## Value Proposition
+
+
+
