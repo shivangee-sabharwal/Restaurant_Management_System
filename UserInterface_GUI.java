@@ -205,7 +205,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
         labelLoginUserName.setPreferredSize(new Dimension(150, 50));
         taMessage = new JTextArea(3,50);
         taMessage.setEditable(false);
-        taMessage.setText("Wellcome!!");
+        taMessage.setText("Welcome!!");
         taMessage.setOpaque(true);
         btnClockOut = new JButton("Clock out");
         btnClockOut.setEnabled(false);
@@ -503,7 +503,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
                 if (btnLoginOK.getVerifyInputWhenFocusTarget()) {
                     //Try to get focus
                     btnLoginOK.requestFocusInWindow();
-                    if (!btnLoginOK.hasFocus()) {    //Can not get focus ?Ë the compornent have not been verified
+                    if (!btnLoginOK.hasFocus()) {    //Can not get focus ?ï¿½ the compornent have not been verified
                         return;
                     }
                 }  
@@ -535,7 +535,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
                 if( rcController.loginCheck(Integer.parseInt(inputID), inputPassword, isManager))
                 {
                     showConfirmDialog("Message", "Login success!!");
-                    displayMessage("Wellcome, " + currentUserName);
+                    displayMessage("Welcome, " + currentUserName);
                     tfUserID.setText("");
                     pwPassword.setText("");
                     changeMainPanel("Home");
@@ -552,7 +552,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
     private void  changeMainPanel(String panelName)
     {
         ((CardLayout) mainPanel.getLayout()).show( mainPanel, panelName);
-        displayMessage("Main paanel change :" + panelName);
+        displayMessage("Main panel change :" + panelName);
     }
     
     /****************************************************************
@@ -925,7 +925,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
                 if (btnOK.getVerifyInputWhenFocusTarget()) {
                     //Try to get focus
                     btnOK.requestFocusInWindow();
-                    if (!btnOK.hasFocus()) {    //Can not get focus ?Ë the compornent have not been verified
+                    if (!btnOK.hasFocus()) {    //Can not get focus ?ï¿½ the compornent have not been verified
                         return;
                     }
                 }  
@@ -1264,7 +1264,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
                 if (btnOK.getVerifyInputWhenFocusTarget()) {
                     //Try to get focus
                     btnOK.requestFocusInWindow();
-                    if (!btnOK.hasFocus()) {    //Can not get focus ?Ë the compornent have not been verified
+                    if (!btnOK.hasFocus()) {    //Can not get focus ?ï¿½ the compornent have not been verified
                         return;
                     }
                 }  
@@ -1825,7 +1825,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
                 if (btnAddItem.getVerifyInputWhenFocusTarget()) {
                     //Try to get focus
                     btnAddItem.requestFocusInWindow();
-                    if (!btnAddItem.hasFocus()) {    //Can not get focus ?Ë the compornent have not been verified
+                    if (!btnAddItem.hasFocus()) {    //Can not get focus ?ï¿½ the compornent have not been verified
                         return;
                     }
                 }  
