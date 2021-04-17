@@ -1,5 +1,12 @@
 # Restaurant_Management_System
 
+## Table of Contents
+1. Background
+2. Usage
+3. How to Contribute
+4. How to execute the project
+5. Contributors
+
 ## Background
 
 The application is a Java based Online Restaurant Management application that allows the users to Show menu, Create Orders and manage new employees/staff, menu.
@@ -38,8 +45,11 @@ Pull requests are welcome.
 Please fork the repo and clone it in your local. Create a new branch and perform your changes. Push your changes and create a pull request from your branch to the master branch.
 Before making changes, please create an issue and discuss it on the repo.
 
+## How to execute the project
+Run executable RMS_GUI.jar. This will launch the GUI window for the restaurant management system.
+
 ## Contributors
 
 Shivangee Sabharwal- 2020MT93031 (GitHub Username : shivangee-sabharwal)\
-Prabhkirat Kaur- 2020MT93174 (GitHub Username : 2020MT93174)
+Prabhkirat Kaur- 2020MT93174 (GitHub Username : 2020MT93174)\
 Shivangi Singh - 2020MT93177 (GitHub Username : ShivangiDummy)
