@@ -322,6 +322,7 @@ public class UserInterface {
         displayTitle("Order Details");
         displayMessage("OrderID:" + orderID);
         displayMessage("Order Date:" + todaysDate);
+        displayMessage("Order Status: "+rOrder.getState()+"--"+rOrder.getOrderStateName(rOrder.getState()));
         displayMessage("Employee Name:" + rOrder.getStaffName());
         displayMessage("");
         
