@@ -1,3 +1,12 @@
+- [Restaurant_Management_System](#restaurant-management-system)
+  * [Background](#background)
+  * [Usage](#usage)
+  * [How to execute the project](#how-to-execute-the-project)
+  * [How to Contribute?](#how-to-contribute-)
+  * [Contributors](#contributors)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 # Restaurant_Management_System
 
 ## Background
@@ -44,6 +53,12 @@ git push origin master
 	- user merge command to sync changes "git merge origin master"
 	- git push origin work-branch-name
 ```
+## How to execute the project
+Using GUI -> 
+Run executable RMS_GUI.jar. This will launch the GUI window for the restaurant management system.\
+Using IDE ->
+Use appropriate IDE (Atom/ Visual Studio Code) to launch the restaurant management system.
+Execute RMS.java file or entire module as a Java Application. This will result in execution of the application on the IDE console.
 
 ## How to Contribute?
 
