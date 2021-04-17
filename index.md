@@ -100,6 +100,6 @@ You can see a payment details for a day by clicking "Show payment" button on the
 ![Image](images/wages_1.JPG)
 
 ## Value Proposition
-
+The system is designed to keep restaurant running by tracking employees, inventory and sales.  RMS is a comprehensive tool that allows you to see your restaurant and its needs at a glance, which can simplify your workload on a day-to-day basis. RMS encompasses all back-end needs, such as inventory and staff management.
 
 
