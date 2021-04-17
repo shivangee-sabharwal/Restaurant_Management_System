@@ -23,14 +23,27 @@ git add .
 ```
 git commit -m "commit message"
 ```
-5. Push this branch to your remote master branch
+5. Push this branch to your fork master branch
 ```
 git push origin master
 ```
-6. Open a Pull Request on GitHub
-7. The project owner merges or closes the Pull Request
-8. Make changes as per discussions and comments from the repo owner
-9. Sync the updated master back to your fork
+6. Sync changes from remote master frequently for any changes using below commands
+```
+- move to master branch
+- add remote using 'git remote add upstream <remote repo link>'
+- Make sure you have no modified files using "git status"
+- if there are any modified files then use "git stash" command
+- git pull upstream master
+- git push origin master
+- use "git stash apply" to get modified files if any stashed
+- switch to working branch - "git checkout work-branch-name"
+- user merge command to sync changes "git merge origin master"
+- git push origin work-branch-name
+```
+7. Open a Pull Request on GitHub
+8. The project owner merges or closes the Pull Request
+9. Make changes as per discussions and comments from the repo owner
+10. Sync the updated master back to your fork
 
 ## How to Contribute?
 
