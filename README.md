@@ -76,7 +76,7 @@ git push origin master
 8. Make changes as per discussions and comments from the repo owner
 9. Sync the updated master back to your fork
    
-   Below are the steps that can be followed to sync the changes from the original repo :
+   Below are the steps that can be followed to sync the changes from the original repo to the forked repo :
    
 ```
 	- move to master branch
